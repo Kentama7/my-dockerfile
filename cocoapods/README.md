@@ -20,5 +20,5 @@
 vi ~/.zshrc
 
 # 以下を追記
-alias pod=docker run --rm -v $PWD:/app cocoapods pod`
+alias pod=docker run --rm -v $PWD:/app cocoapods pod
 ```
