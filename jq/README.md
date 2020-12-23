@@ -13,7 +13,7 @@
 
 `docker run --rm -i jq <command>`
 
-```
+```shell
 echo '{"foo": 0}' | docker run --rm -i jq .
 {
   "foo": 0
