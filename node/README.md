@@ -1,4 +1,10 @@
-# Reactやるときに使うやつ
+# node
+
+Reactやるときように以下を追加
+
+- typescript
+- ts-node
+- typesync
 
 ## version
 
