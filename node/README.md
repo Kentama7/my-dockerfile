@@ -27,8 +27,6 @@ docker run --rm -it --entrypoint /usr/local/bin/yarn node <command>
 docker run --rm -it --entrypoint /usr/local/bin/ts-node node <command>
 ```
 
-## alias
-
 ### zsh
 
 ```
