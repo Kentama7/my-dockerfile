@@ -32,7 +32,7 @@ docker run --rm -it --entrypoint /usr/local/bin/ts-node node <command>
 ```
 vi ~/.zshrc
 
-alias node='docker run --rm -it --entrypoint /usr/local/bin/node node'
-alias yarn='docker run --rm -it --entrypoint /usr/local/bin/yarn node'
+alias node='docker run --rm -it -v "$PWD":/app --entrypoint /usr/local/bin/node node'
+alias yarn='docker run --rm -it -v "$PWD":/app -p 3000 --entrypoint /usr/local/bin/yarn node'
 ```
 
